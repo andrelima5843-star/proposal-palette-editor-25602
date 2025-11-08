@@ -7,6 +7,7 @@ import { ObjectivesSection } from "@/components/ObjectivesSection";
 import { ProofSection } from "@/components/ProofSection";
 import { PackagesSection } from "@/components/PackagesSection";
 import { InvestmentSection } from "@/components/InvestmentSection";
+import { TimelineSection } from "@/components/TimelineSection";
 import { toast } from "sonner";
 
 const Index = () => {
@@ -72,6 +73,7 @@ const Index = () => {
         <ProofSection isEditing={isEditing} />
         <PackagesSection isEditing={isEditing} />
         <InvestmentSection isEditing={isEditing} />
+        <TimelineSection isEditing={isEditing} />
 
         {/* Footer */}
         <footer className="text-center py-8 border-t border-accent/20">
