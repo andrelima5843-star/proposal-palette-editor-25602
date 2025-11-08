@@ -36,8 +36,8 @@ export const InvestmentSection = ({ isEditing }: InvestmentSectionProps) => {
             </div>
             <div>
               <h3 className="font-bold text-xl mb-2 text-accent">Contrato</h3>
-              <p className="text-lg font-semibold mb-2">Mínimo 6 meses</p>
-              <p className="text-sm text-muted-foreground">Resultados consistentes de SEO</p>
+              <p className="text-lg font-semibold mb-2">3 meses</p>
+              <p className="text-sm text-muted-foreground">Período inicial de implementação</p>
             </div>
           </div>
         </Card>
@@ -49,7 +49,7 @@ export const InvestmentSection = ({ isEditing }: InvestmentSectionProps) => {
             </div>
             <div>
               <h3 className="font-bold text-xl mb-2 text-accent">Prazo para Resultados</h3>
-              <p className="text-lg font-semibold mb-2">3 a 6 meses</p>
+              <p className="text-lg font-semibold mb-2">2 a 3 meses</p>
               <p className="text-sm text-muted-foreground">Primeiros resultados visíveis</p>
             </div>
           </div>

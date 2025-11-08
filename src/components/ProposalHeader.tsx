@@ -59,21 +59,21 @@ export const ProposalHeader = ({ isEditing }: ProposalHeaderProps) => {
                 {companyName}
               </span>
             )}{" "}
-            - SEO e ranqueamento no Google para rastreamento veicular
+            - SEO e ranqueamento no Google para eletrodomésticos
           </p>
 
           <div className="flex flex-wrap gap-4">
             <div className="flex items-center gap-2 bg-card border border-accent/20 px-4 py-2 rounded-lg backdrop-blur-sm shadow-gold">
-              <span className="text-accent">🚗</span>
-              <span className="text-foreground">Rastreamento Veicular</span>
+              <span className="text-accent">🏠</span>
+              <span className="text-foreground">Eletrodomésticos</span>
             </div>
             <div className="flex items-center gap-2 bg-card border border-accent/20 px-4 py-2 rounded-lg backdrop-blur-sm shadow-gold">
-              <span className="text-accent">🛡️</span>
-              <span className="text-foreground">Segurança Automotiva</span>
+              <span className="text-accent">⚡</span>
+              <span className="text-foreground">Tecnologia Residencial</span>
             </div>
             <div className="flex items-center gap-2 bg-card border border-accent/20 px-4 py-2 rounded-lg backdrop-blur-sm shadow-gold">
-              <span className="text-accent">📡</span>
-              <span className="text-foreground">Tecnologia GPS</span>
+              <span className="text-accent">🔧</span>
+              <span className="text-foreground">Assistência Técnica</span>
             </div>
           </div>
         </div>

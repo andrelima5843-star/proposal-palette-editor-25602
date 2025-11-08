@@ -14,7 +14,7 @@ export const ScopeSection = ({ isEditing }: ScopeSectionProps) => {
       title: "SEO no Website",
       description: "Otimização completa do site para mecanismos de busca",
       points: [
-        "Pesquisa de palavras-chave para rastreamento veicular",
+        "Pesquisa de palavras-chave para eletrodomésticos",
         "Otimização de títulos, meta descrições e conteúdo",
         "Melhoria da estrutura de URLs e links internos",
         "Otimização de velocidade e performance do site",
@@ -26,7 +26,7 @@ export const ScopeSection = ({ isEditing }: ScopeSectionProps) => {
       description: "Gestão profissional do perfil GMB para máxima visibilidade",
       points: [
         "Otimização completa do perfil com palavras-chave estratégicas",
-        "Publicação regular de posts sobre serviços de rastreamento",
+        "Publicação regular de posts sobre produtos e serviços",
         "Gestão e resposta de avaliações de clientes",
         "Atualização de fotos, horários e informações relevantes",
       ],
@@ -36,7 +36,7 @@ export const ScopeSection = ({ isEditing }: ScopeSectionProps) => {
       title: "Conteúdo e Link Building",
       description: "Criação de conteúdo relevante e autoridade no segmento",
       points: [
-        "Criação de artigos otimizados sobre rastreamento GPS",
+        "Criação de artigos otimizados sobre eletrodomésticos",
         "Estratégia de link building para aumentar autoridade",
         "Otimização de conteúdo existente para ranqueamento",
         "Análise da concorrência e oportunidades de palavras-chave",
@@ -64,7 +64,7 @@ export const ScopeSection = ({ isEditing }: ScopeSectionProps) => {
         </h2>
       </div>
       <p className="text-lg text-muted-foreground">
-        SEO completo no website e Google Meu Negócio para rastreamento veicular
+        SEO completo no website e Google Meu Negócio para eletrodomésticos
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
