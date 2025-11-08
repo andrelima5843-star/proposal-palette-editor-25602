@@ -5,6 +5,7 @@ import { ProposalHeader } from "@/components/ProposalHeader";
 import { ScopeSection } from "@/components/ScopeSection";
 import { ObjectivesSection } from "@/components/ObjectivesSection";
 import { ProofSection } from "@/components/ProofSection";
+import { GoogleMyBusinessSection } from "@/components/GoogleMyBusinessSection";
 import { PackagesSection } from "@/components/PackagesSection";
 import { InvestmentSection } from "@/components/InvestmentSection";
 import { TimelineSection } from "@/components/TimelineSection";
@@ -71,6 +72,7 @@ const Index = () => {
         <ScopeSection isEditing={isEditing} />
         <ObjectivesSection isEditing={isEditing} />
         <ProofSection isEditing={isEditing} />
+        <GoogleMyBusinessSection isEditing={isEditing} />
         <PackagesSection isEditing={isEditing} />
         <InvestmentSection isEditing={isEditing} />
         <TimelineSection isEditing={isEditing} />

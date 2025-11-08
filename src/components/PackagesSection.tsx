@@ -8,21 +8,6 @@ interface PackagesSectionProps {
 export const PackagesSection = ({ isEditing }: PackagesSectionProps) => {
   const packages = [
     {
-      name: "Website + Google Meu Negócio",
-      price: "R$ 997",
-      period: "/mês",
-      features: [
-        "Criação/otimização de website profissional",
-        "Design responsivo e moderno",
-        "Configuração completa Google Meu Negócio",
-        "Otimização para buscas locais",
-        "Integração com redes sociais",
-        "Formulários de contato",
-        "Suporte técnico mensal",
-      ],
-      highlight: false,
-    },
-    {
       name: "Gestão de SEO Orgânico",
       price: "R$ 1.997",
       period: "/mês",
@@ -37,6 +22,21 @@ export const PackagesSection = ({ isEditing }: PackagesSectionProps) => {
         "Suporte prioritário",
       ],
       highlight: true,
+    },
+    {
+      name: "Website + Google Meu Negócio",
+      price: "R$ 997",
+      period: "/mês",
+      features: [
+        "Criação/otimização de website profissional",
+        "Design responsivo e moderno",
+        "Configuração completa Google Meu Negócio",
+        "Otimização para buscas locais",
+        "Integração com redes sociais",
+        "Formulários de contato",
+        "Suporte técnico mensal",
+      ],
+      highlight: false,
     },
     {
       name: "Pacote Completo",
