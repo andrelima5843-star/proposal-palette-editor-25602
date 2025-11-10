@@ -1,5 +1,7 @@
 import { ImageUploadField } from "./ImageUploadField";
 import { Award, TrendingUp, Target } from "lucide-react";
+import { Card } from "@/components/ui/card";
+import credibilidadeImage from "@/assets/credibilidade.png";
 
 interface ProofSectionProps {
   isEditing: boolean;
@@ -19,12 +21,20 @@ export const ProofSection = ({ isEditing }: ProofSectionProps) => {
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <ImageUploadField
-          title="Credibilidade Online"
-          description="Avaliações, reputação e autoridade da marca"
-          icon={<Award className="w-6 h-6" />}
-          isEditing={isEditing}
-        />
+        <Card className="p-6 border-2 border-accent/20 hover:shadow-gold transition-all duration-300">
+          <div className="flex items-center gap-2 mb-4">
+            <Award className="w-6 h-6 text-accent" />
+            <h3 className="text-lg font-bold text-accent">Credibilidade Online</h3>
+          </div>
+          <p className="text-sm text-muted-foreground mb-4">
+            Avaliações, reputação e autoridade da marca
+          </p>
+          <img 
+            src={credibilidadeImage} 
+            alt="Credibilidade Online - Avaliações Google" 
+            className="rounded-lg w-full border border-accent/20"
+          />
+        </Card>
         
         <ImageUploadField
           title="Posicionamento Orgânico"

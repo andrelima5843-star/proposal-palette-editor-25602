@@ -14,7 +14,7 @@ export const PackagesSection = ({ isEditing }: PackagesSectionProps) => {
 
   const packages = [
     {
-      name: "Gestão de SEO Orgânico",
+      name: "Gestão de SEO Orgânico + Google Meu Negócio",
       price: "R$ 1.997",
       period: "/mês",
       features: [
