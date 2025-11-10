@@ -21,50 +21,56 @@ export const ProofSection = ({ isEditing }: ProofSectionProps) => {
         Diagnóstico completo da presença digital e oportunidades de crescimento
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <Card className="p-6 border-2 border-accent/20 hover:shadow-gold transition-all duration-300">
-          <div className="flex items-center gap-2 mb-4">
-            <Award className="w-6 h-6 text-accent" />
-            <h3 className="text-lg font-bold text-accent">Credibilidade Online</h3>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <Card className="p-8 border-2 border-accent/20 hover:shadow-gold transition-all duration-300">
+          <div className="flex items-center gap-3 mb-6">
+            <Award className="w-8 h-8 text-accent" />
+            <h3 className="text-xl font-bold text-accent">Credibilidade Online</h3>
           </div>
-          <p className="text-sm text-muted-foreground mb-4">
+          <p className="text-base text-muted-foreground mb-6">
             Avaliações, reputação e autoridade da marca
           </p>
-          <img 
-            src={credibilidadeImage} 
-            alt="Credibilidade Online - Avaliações Google" 
-            className="rounded-lg w-full border border-accent/20"
-          />
+          <div className="overflow-hidden rounded-lg border-2 border-accent/20">
+            <img 
+              src={credibilidadeImage} 
+              alt="Credibilidade Online - Avaliações Google" 
+              className="w-full h-auto object-cover hover:scale-105 transition-transform duration-300"
+            />
+          </div>
         </Card>
         
-        <Card className="p-6 border-2 border-accent/20 hover:shadow-gold transition-all duration-300">
-          <div className="flex items-center gap-2 mb-4">
-            <TrendingUp className="w-6 h-6 text-accent" />
-            <h3 className="text-lg font-bold text-accent">Posicionamento Orgânico</h3>
+        <Card className="p-8 border-2 border-accent/20 hover:shadow-gold transition-all duration-300">
+          <div className="flex items-center gap-3 mb-6">
+            <TrendingUp className="w-8 h-8 text-accent" />
+            <h3 className="text-xl font-bold text-accent">Posicionamento Orgânico</h3>
           </div>
-          <p className="text-sm text-muted-foreground mb-4">
+          <p className="text-base text-muted-foreground mb-6">
             Ranqueamento atual nas buscas do Google
           </p>
-          <img 
-            src={posicionamentoImage} 
-            alt="Posicionamento Orgânico - Ranking Google" 
-            className="rounded-lg w-full border border-accent/20"
-          />
+          <div className="overflow-hidden rounded-lg border-2 border-accent/20">
+            <img 
+              src={posicionamentoImage} 
+              alt="Posicionamento Orgânico - Ranking Google" 
+              className="w-full h-auto object-cover hover:scale-105 transition-transform duration-300"
+            />
+          </div>
         </Card>
         
-        <Card className="p-6 border-2 border-accent/20 hover:shadow-gold transition-all duration-300">
-          <div className="flex items-center gap-2 mb-4">
-            <Target className="w-6 h-6 text-accent" />
-            <h3 className="text-lg font-bold text-accent">Demanda Google Ads</h3>
+        <Card className="p-8 border-2 border-accent/20 hover:shadow-gold transition-all duration-300">
+          <div className="flex items-center gap-3 mb-6">
+            <Target className="w-8 h-8 text-accent" />
+            <h3 className="text-xl font-bold text-accent">Demanda Google Ads</h3>
           </div>
-          <p className="text-sm text-muted-foreground mb-4">
+          <p className="text-base text-muted-foreground mb-6">
             Volume de buscas e oportunidades pagas
           </p>
-          <img 
-            src={demandaImage} 
-            alt="Demanda Google Ads - Planejador de Palavras-chave" 
-            className="rounded-lg w-full border border-accent/20"
-          />
+          <div className="overflow-hidden rounded-lg border-2 border-accent/20">
+            <img 
+              src={demandaImage} 
+              alt="Demanda Google Ads - Planejador de Palavras-chave" 
+              className="w-full h-auto object-cover hover:scale-105 transition-transform duration-300"
+            />
+          </div>
         </Card>
       </div>
     </section>
