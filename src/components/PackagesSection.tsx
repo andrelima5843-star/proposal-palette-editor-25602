@@ -39,7 +39,7 @@ export const PackagesSection = ({ isEditing }: PackagesSectionProps) => {
           Pacotes e Investimento
         </h2>
       </div>
-      <p className="text-lg text-muted-foreground">
+      <p className="text-lg text-accent/80">
         Escolha o pacote ideal para o seu negócio
       </p>
 
