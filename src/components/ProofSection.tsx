@@ -52,7 +52,7 @@ export const ProofSection = ({
         <Card className="p-8 border-2 border-accent/20 hover:shadow-gold transition-all duration-300">
           <div className="flex items-center gap-3 mb-6">
             <Target className="w-8 h-8 text-accent" />
-            <h3 className="text-xl font-bold text-accent">Demanda Google Ads</h3>
+            <h3 className="text-xl font-bold text-accent">Demanda Google </h3>
           </div>
           <p className="text-base text-muted-foreground mb-6 text-center">​As palavras-chave “loja de móveis e eletrodomésticos” têm entre 100 e 1.000 buscas mensais no Google. As empresas que estão na 1ª página captam cerca de 80% dessa demanda.</p>
           <div className="overflow-hidden rounded-lg border-2 border-accent/20">
