@@ -38,12 +38,7 @@ export const ProposalHeader = ({ isEditing }: ProposalHeaderProps) => {
           }}>
             Gestão de SEO Orgânico
             <br />
-            <span className="bg-gradient-to-r from-accent via-primary to-accent bg-clip-text text-transparent" style={{
-              backgroundSize: "200% auto",
-              animation: "shimmer 3s linear infinite"
-            }}>
-              Website + Google Meu Negócio
-            </span>
+            + Google Meu Negócio
           </h1>
           
           <p className="text-lg text-muted-foreground">
