@@ -11,7 +11,7 @@ interface ProposalHeaderProps {
 export const ProposalHeader = ({ isEditing }: ProposalHeaderProps) => {
   const [companyName, setCompanyName] = useState("Novalar");
   const [tagline, setTagline] = useState("Marketing Digital & SEO");
-  const [location, setLocation] = useState("Ariquemes - RO");
+  const [location, setLocation] = useState("Porto Velho");
   const [logoUrl, setLogoUrl] = useState("");
 
   const handleLogoUpload = (e: React.ChangeEvent<HTMLInputElement>) => {

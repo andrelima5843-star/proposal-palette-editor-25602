@@ -28,7 +28,7 @@ export const ProofSection = ({ isEditing }: ProofSectionProps) => {
             <h3 className="text-xl font-bold text-accent">Credibilidade Online</h3>
           </div>
           <p className="text-base text-muted-foreground mb-6">
-            Avaliações, reputação e autoridade da marca
+            O Google analisa 32 fatores para criar a credibilidade da empresa que é medida como SCORE (que funciona como o do cartão de crédito: quanto maior o score, mais você aparece na 1ª página e vende). Hoje a loja de Porto Velho está com 52, isso mostra que tem muitos pontos de melhorias a serem trabalhados.
           </p>
           <div className="overflow-hidden rounded-lg border-2 border-accent/20">
             <img 
@@ -45,7 +45,7 @@ export const ProofSection = ({ isEditing }: ProofSectionProps) => {
             <h3 className="text-xl font-bold text-accent">Posicionamento Orgânico</h3>
           </div>
           <p className="text-base text-muted-foreground mb-6">
-            Ranqueamento atual nas buscas do Google
+            De acordo com o score da empresa, o Google monta um ranqueamento na rede de pesquisa. Assim a empresa está em 16° posição, sendo a 2ª página indo para a 3ª.
           </p>
           <div className="overflow-hidden rounded-lg border-2 border-accent/20">
             <img 
