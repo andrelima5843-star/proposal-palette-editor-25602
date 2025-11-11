@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Check } from "lucide-react";
-import googleMyBusinessImage from "@/assets/google-my-business.png";
+import googleMyBusinessImage from "@/assets/google-my-business-novo.jpg";
 
 interface GoogleMyBusinessSectionProps {
   isEditing: boolean;
