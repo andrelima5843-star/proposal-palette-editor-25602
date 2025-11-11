@@ -9,6 +9,7 @@ import { GoogleMyBusinessSection } from "@/components/GoogleMyBusinessSection";
 import { PackagesSection } from "@/components/PackagesSection";
 import { InvestmentSection } from "@/components/InvestmentSection";
 import { TimelineSection } from "@/components/TimelineSection";
+import { TestimonialsSection } from "@/components/TestimonialsSection";
 import { toast } from "sonner";
 
 const Index = () => {
@@ -76,14 +77,15 @@ const Index = () => {
         <PackagesSection isEditing={isEditing} />
         <InvestmentSection isEditing={isEditing} />
         <TimelineSection isEditing={isEditing} />
+        <TestimonialsSection isEditing={isEditing} />
 
         {/* Footer */}
         <footer className="text-center py-8 border-t border-accent/20">
           <p className="text-sm text-muted-foreground">
-            Proposta válida por 30 dias • Entre em contato para mais informações
+            Proposta válida por 3 dias • Entre em contato para mais informações
           </p>
           <p className="text-xs text-muted-foreground mt-2">
-            📧 contato@novalar.com.br • 📱 (69) 99999-9999
+            📧 andrelima5843@gmail.com • 📱 (48) 99998-0374
           </p>
         </footer>
       </div>

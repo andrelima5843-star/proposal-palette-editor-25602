@@ -69,23 +69,6 @@ export const InvestmentSection = ({ isEditing }: InvestmentSectionProps) => {
         </Card>
       </div>
 
-      <Card className="p-8 bg-gradient-to-br from-secondary via-card to-background border-2 border-accent shadow-gold relative overflow-hidden">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,hsl(45_100%_51%/0.1),transparent_70%)]" />
-        <div className="relative text-center space-y-4">
-          <h3 className="text-2xl font-bold text-accent" style={{ textShadow: "0 0 20px hsl(45 100% 51% / 0.5)" }}>
-            🎉 Condições Especiais
-          </h3>
-          <p className="text-lg text-foreground">
-            <span className="text-accent font-bold" style={{ textShadow: "0 0 10px hsl(45 100% 51% / 0.3)" }}>
-              10% de desconto
-            </span>{" "}
-            para pagamento anual à vista
-          </p>
-          <p className="text-sm text-muted-foreground">
-            De R$ 23.964 por ano para R$ 21.568 - Economia de R$ 2.396
-          </p>
-        </div>
-      </Card>
     </section>
   );
 };
