@@ -3,17 +3,18 @@ import { Card } from "@/components/ui/card";
 import credibilidadeImage from "@/assets/credibilidade.png";
 import posicionamentoImage from "@/assets/posicionamento.png";
 import demandaImage from "@/assets/demanda-google-ads.png";
-
 interface ProofSectionProps {
   isEditing: boolean;
 }
-
-export const ProofSection = ({ isEditing }: ProofSectionProps) => {
-  return (
-    <section className="space-y-6">
+export const ProofSection = ({
+  isEditing
+}: ProofSectionProps) => {
+  return <section className="space-y-6">
       <div className="flex items-center gap-3">
         <span className="text-4xl">📊</span>
-        <h2 className="text-3xl font-bold text-accent" style={{ textShadow: "0 0 20px hsl(45 100% 51% / 0.5)" }}>
+        <h2 className="text-3xl font-bold text-accent" style={{
+        textShadow: "0 0 20px hsl(45 100% 51% / 0.5)"
+      }}>
           Análise do Negócio
         </h2>
       </div>
@@ -22,7 +23,7 @@ export const ProofSection = ({ isEditing }: ProofSectionProps) => {
       </p>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10">
-        <Card className="p-10 border-2 border-accent/20 hover:shadow-gold transition-all duration-300 flex flex-col">
+        <Card className="p-10 border-2 border-accent/20 hover:shadow-gold transition-all duration-300 flex flex-col \n">
           <div className="flex items-center gap-4 mb-8">
             <Award className="w-10 h-10 text-accent" />
             <h3 className="text-2xl font-bold text-accent">Credibilidade Online</h3>
@@ -61,6 +62,5 @@ export const ProofSection = ({ isEditing }: ProofSectionProps) => {
           </div>
         </Card>
       </div>
-    </section>
-  );
+    </section>;
 };
