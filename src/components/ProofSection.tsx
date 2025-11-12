@@ -22,7 +22,7 @@ export const ProofSection = ({
         Diagnóstico completo da presença digital e oportunidades de crescimento
       </p>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-10">
+      <div className="p-10 border-2 border-accent/20 hover:shadow-gold transition-all duration-300 flex flex-col">
         <Card className="p-10 border-2 border-accent/20 hover:shadow-gold transition-all duration-300 flex flex-col \n">
           <div className="flex items-center gap-4 mb-8">
             <Award className="w-10 h-10 text-accent" />
