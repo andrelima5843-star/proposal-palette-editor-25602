@@ -16,6 +16,7 @@ export const TestimonialsSection = ({ isEditing }: TestimonialsSectionProps) => 
     "/videos/feedback-7.mp4",
     "/videos/feedback-8.mp4",
     "/videos/feedback-9.mp4",
+    "/videos/feedback-10.mp4",
   ];
 
   return (
